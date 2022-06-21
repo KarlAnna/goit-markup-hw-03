@@ -89,10 +89,6 @@ hr {
 }
 
 /* section 1 ------------------------------------------------------> */
-.cap {
-    background-color: var(--bg-color-grayish);
-}
-
 .cap-title {
     color: white;
 
@@ -168,10 +164,6 @@ hr {
 }
 
 /* section 4 ------------------------------------------------------> */
-.our-team {
-    background-color: var(--bg-color-whitish);
-}
-
 .our-team-list {
     list-style-type: none;
 }
