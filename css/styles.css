@@ -7,6 +7,12 @@
     --button-hover: #188ce8;
 }
 
+/* Css reset */
+h1, h2, h3, h4, h5 ,h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
 
 /* !--- INDEX.HTML ---! */
 
@@ -14,6 +20,16 @@ body {
     background-color: white;
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
+
+    width: 1600px;
+}
+
+.section {
+    padding: 94px 0;
+}
+
+.container {
+    width: 1200px;
 }
 
 /** HEADER **/
@@ -29,6 +45,12 @@ body {
     letter-spacing: 0.03em;
 }
 
+.logo-header {
+    /* position: absolute;
+    width: 145px;
+    height: 31px; */
+}
+
 .first-word {
     color: var(--accent-color);
     text-decoration: none;
@@ -41,7 +63,14 @@ body {
 }
 
 .menu-nav {
-    list-style-type: none;
+    /* list-style-type: none; */
+    display: inline-flex;
+
+    /* position: absolute;
+    width: 294px;
+    height: 16px;
+    left: 453px;
+    top: 32px; */
 }
 
 .menu-nav-link {
@@ -52,6 +81,8 @@ body {
     font-size: 14px;
     line-height: 1.15;
     letter-spacing: 0.02em;
+
+    margin-left: 50px;
 }
 
 .menu-nav-link:hover, .header-address-link:hover, .footer-address-link:hover {
@@ -76,10 +107,15 @@ body {
     font-size: 14px;
     line-height: 1.15;
     letter-spacing: 0.02em;
+
+    /* height: 16px;
+    margin-top: 32px;
+    margin-left: 1078px; */
 }
 
 hr {
     border: 1px solid #ececec;
+    width: 1600px;
 }
 
 /** MAIN **/
@@ -125,8 +161,19 @@ hr {
 
 /* section 2 ------------------------------------------------------> */
 
+.hidden-title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .characteristics-list {
-    list-style-type: none;
+    /* list-style-type: none; */
 }
 
 .characteristics-subtitle {
@@ -165,7 +212,7 @@ hr {
 
 /* section 4 ------------------------------------------------------> */
 .our-team-list {
-    list-style-type: none;
+    /* list-style-type: none; */
 }
 
 .our-team-item {
@@ -229,7 +276,7 @@ address {
 /* !--- PORTFOLIO.HTML ---! */
 
 .filters-list-item {
-    list-style-type: none;
+    /* list-style-type: none; */
 }
 
 .filters-list-button {
@@ -253,7 +300,7 @@ address {
 
 .projects-list {
     background-color: white;
-    list-style-type: none;
+    /* list-style-type: none; */
     border: 1px solid #eeeeee;
     box-sizing: border-box;
 }
