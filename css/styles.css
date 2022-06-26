@@ -28,15 +28,11 @@ body {
 
 /** HEADER **/
 
-header {
-    padding: 25px 0;
-}
-
 .header {
     display: flex;
     width: 1200px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 25px 15px;
 }
 
 .logo-header, .logo-footer {
@@ -47,10 +43,6 @@ header {
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-}
-
-.logo-header {
-    /* display: flex; */
 }
 
 .first-word {
@@ -98,6 +90,10 @@ nav {
 .header-address-link-mail:hover, .header-address-link-tel:hover,
 .footer-address-link-mail:hover, .footer-address-link-tel:hover {
     color: var(--accent-color);
+}
+
+hr {
+    border: 1px solid #ececec;
 }
 
 /** MAIN **/
@@ -241,7 +237,7 @@ nav {
 }
 
 .our-team-text {
-    padding: 30px 55px;
+    padding: 30px 0;
 }
 
 .our-team-name {
@@ -311,11 +307,9 @@ address {
 /* !--- PORTFOLIO.HTML ---! */
 
 .filters-list {
+    display: flex;
+    flex-wrap: wrap;
     margin: 0 0 50px 280px;
-}
-
-.filters-list-item {
-    display: inline-flex;
 }
 
 .filters-list-button {
@@ -342,13 +336,13 @@ address {
 
 .projects-list {
     background-color: white;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .projects-list-item {
-    border-bottom: 1px solid #eeeeee;
+    border: 1px solid #eeeeee;
 
-    display: inline-flex;
-    flex-wrap: wrap;
     width: 365px;
     height: 404px;
     margin: 0 30px 30px 0;
@@ -363,7 +357,7 @@ address {
 }
 
 .projects-list-item-text {
-    padding: 20px 24px;
+    padding: 20px 0 20px 24px;
 }
 
 .projects-list-item-title {
